@@ -1,13 +1,13 @@
 import React from 'react';
 import Project from '../Project';
-
+// import { Image } from '../../assets/images/
 function Portfolio() {
     const projects = [
 
         {
             name: 'Auto Tracker',
             description: 'This is your personal automobile information tracking system. Track time dependent, vehicle specific information from a single application, available on any web-enabled device.',
-            image: 'auto-tracker-image.png',
+            image: 'Autotracker.png',
             technologies: [
                 'HTML/CSS',
                 'JavaScript',
@@ -23,7 +23,7 @@ function Portfolio() {
         {
             name: 'Budget Tracker',
             description: 'Budget Tracker is an Application that uses a noSQL database and offline persistance for a great user experience for managing their finances and budgeting no matter where they are.',
-            image: 'budget-tracker-image.png',
+            image: 'budgettracker.png',
             technologies: [
                 'JavaScript',
                 'MongoDB',
@@ -31,32 +31,32 @@ function Portfolio() {
                 'Node.js',
                 'Express',
             ],
-            github: ' ',
-            deployed: '',
+            github: ' https://github.com/Minamahmood/Budget-Tracker',
+
         },
         {
             name: 'Weather',
             description: 'A weather dashboard that shows current weather and five-day weather forecast for any city.',
-            image: 'weather-dashboard-image.png',
+            image: 'weather.png',
             technologies: ['HTML/CSS', 'JavaScript'],
-            github: '',
-            deployed: '',
+            github: 'https://github.com/Minamahmood/Weather-Dashboard',
+
         },
-        {
-            name: 'Password Generator',
-            description: 'This is an application that allows you to generate a password from 8 to 128 characters based on criteria you select.',
-            image: 'password-generator-image.png',
-            technologies: ['HTML/CSS', 'JavaScript'],
-            github: '',
-            deployed: '',
-        },
+
         {
             name: 'Note Taker',
             description: 'This application allows the user to enter notes and as they save, they appear in the sidebar on the left. Notes can be deleted by clicking the trash can next to the corresponding note.',
-            image: 'note-taker-image.png',
+            image: 'note.png',
             technologies: ['HTML/CSS', 'JavaScript', 'Express.js'],
-            github: '',
-            deployed: '',
+            github: 'https://github.com/Minamahmood/Note-Taker',
+
+        },
+        {
+            name: 'Horiseon',
+            description: 'This application allows adding semantic HTMLs to the Horiseon Website.',
+            technologies: ['HTML/CSS'],
+            github: 'https://github.com/Minamahmood/Horiseon',
+
         },
     ];
 
@@ -96,10 +96,6 @@ function Portfolio() {
         li className = "padding" >
         <
         Project projects = { projects[4] } > < /Project> <
-        /li> <
-        li className = "padding" >
-        <
-        Project projects = { projects[5] } > < /Project> <
         /li> <
         /ul> <
         /div> <

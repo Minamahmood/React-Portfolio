@@ -8,21 +8,22 @@ function About() {
 			</div>
 			<div className="center">
 				<img
-					src={require('../../assets/images/recent-photo.jpg')}
+					src={require('../../assets/images/IMG-4373.JPG').default}
 					alt="about-me"
 					className="photo"
+					style ={{width:'100px'}}
 				/>
 			</div>
 			<div>
 				<p>
 					I am a full stack web developer looking to build a more
 					intuitive user experience on the web. I currently about to earn
-					a certificate in full stack development from Berkely bootcam, with newly developed
+					a certificate in full stack development from berkeley bootcam, with newly developed
 					skills in JavaScript, CSS, React.js, and responsive web
 					design.
 				</p>
 				<p>
-					I worked on a team of two to{' '}
+					my latest project on Interactive Front-End Project to{' '}
 					<a
 						href="https://github.com/fadhaa89/auto-tracker"
 						target="_blank"
