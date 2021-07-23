@@ -9,6 +9,8 @@ This is my portfolio created with React.js. It contains an About page, Portfolio
 
  # Application Link
 
+https://github.com/Minamahmood/React-Portfolio <br>
 
+https://minamahmood.github.io/React-Portfolio/
 
 ## screenshot
